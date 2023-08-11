@@ -4,4 +4,48 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-      delegate_to: 10.1.0.4
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
