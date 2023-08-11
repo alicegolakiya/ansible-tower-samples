@@ -4,6 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+      sleep: 30
     - name: Hello Message
       debug:
         msg: "Hello World!"
