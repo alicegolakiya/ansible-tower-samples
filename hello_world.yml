@@ -1,6 +1,18 @@
 - name: Hello World Sample
   hosts: all
   tasks:
+    – name: add hosts from extra-vars to “temp” group
+      add_host:
+      hostname: “{{ target_host }}”
+      groups: temp
+
+
+    – hosts: temp
+      gather_facts: true
+      become: yes
+      become_method: sudo
+      ignore_errors: yes
+
     - name: Hello Message
       debug:
         msg: "Hello World!"
