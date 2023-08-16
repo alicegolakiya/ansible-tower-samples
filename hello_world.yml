@@ -4,16 +4,9 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-#    - name: Pause for 5 minutes to build app cache
-#      pause:
-#        minutes: 5
+    - name: Pause for 5 minutes to build app cache
+      pause:
+        minutes: 5
     - name: Hello Message
       debug:
-        msg: "Hello World!"
-    - name: Hostname
-      shell: "hostnamectl"
-      register: hostname
-    - name: Print hostname
-      debug:
-        msg: Hostname is "{{hostname.stdout}}"
-         
+        msg: "Hello World!"         
