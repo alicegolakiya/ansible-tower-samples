@@ -1,0 +1,17 @@
+
+    - name: Create an Incident
+      uri:
+        url: "https://dev137790.service-now.com/api/now/table/x_972643_landing_f_landing_framework_db/0dafc993970971100c853c7e6253af51"
+        method: "PATCH"
+	body_format: "json"
+        user: "admin"
+        password: "^bKtoYb-T7A7"
+        body: |
+          {
+            "comments": "Ansible AWX job trigger successfully",
+            "stage": "success"
+          }
+	headers:
+	     Content-Type: "application/json"
+        status_code: 201
+      register: response
