@@ -1,4 +1,17 @@
-
+- name: Hello World Sample
+  hosts: localhost
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Pause for 5 minutes to build app cache
+      pause:
+        minutes: 5
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+	
+# ServiceNow Status Update 
     - name: Create an Incident
       uri:
         url: "https://dev137790.service-now.com/api/now/table/x_972643_landing_f_landing_framework_db/0dafc993970971100c853c7e6253af51"
