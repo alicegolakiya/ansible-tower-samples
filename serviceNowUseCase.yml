@@ -6,7 +6,7 @@
         msg: "Hello World!"
     - name: Pause for 5 minutes to build app cache
       pause:
-        minutes: 5
+        minutes: 1
     - name: Hello Message
       debug:
         msg: "Hello World!"
