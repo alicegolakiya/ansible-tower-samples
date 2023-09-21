@@ -12,17 +12,17 @@
         msg: "Hello World!"
 
 # ServiceNow Status Update 
-    - name: Create an Incident
-      uri:
-        url: "https://dev101808.service-now.com/api/now/table/x_980975_awx_request/963d597a475131103d74e4be436d431c"
-        method: "PATCH"
-        body_format: "json"
-        user: "admin"
-        password: "E5!cgz!1bARQ"
-        body: |
-          {
-            "status": "success"
-          }
-        headers:
-          Content-Type: "application/json"
-      register: response
+#    - name: Create an Incident
+#      uri:
+#        url: "https://dev101808.service-now.com/api/now/table/x_980975_awx_request/963d597a475131103d74e4be436d431c"
+#        method: "PATCH"
+#        body_format: "json"
+#        user: "admin"
+#        password: "E5!cgz!1bARQ"
+#        body: |
+#          {
+#            "status": "success"
+#          }
+#        headers:
+#          Content-Type: "application/json"
+#      register: response
